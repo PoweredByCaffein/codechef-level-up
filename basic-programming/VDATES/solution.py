@@ -7,7 +7,7 @@ for i in range(T):
     L = inputs[1]
     R = inputs[2]
 
-    if D >= L and D <= R:
+    if L <= D <= R:
         print("Take second dose now")
     elif D < L:
         print("Too Early")
